@@ -59,29 +59,28 @@ NOTE: the lead which you send will be reviewed and if the content is not well pr
 List of EPIDs:
 
 ```
-"dachdeckercom",
-"malerorg",
-"fliesenlegernet",
-"gartenbauorg",
-"geruestbauorg",
-"elektrikerorg",
-"tischlerschreinerorg",
-"klimatechnikernet",
-"heizungsbaunet",
-"sanitaerorg",
-"autowerkstattde",
-"bestatterorg",
-"glasereiorg",
-"schlossereinet",
-"finanzberaternet",
-"gutachterorg",
-"optikersite",
-"haarentfernungsite",
-"fahrradreparaturorg",
-"itserviceverzeichnisde",
-"fusspflegesite",
-"schaedlingsvernichtungde"
-
+dachdeckercom
+malerorg
+fliesenlegernet
+gartenbauorg
+geruestbauorg
+elektrikerorg
+tischlerschreinerorg
+klimatechnikernet
+heizungsbaunet
+sanitaerorg
+autowerkstattde
+bestatterorg
+glasereiorg
+schlossereinet
+finanzberaternet
+gutachterorg
+optikersite
+haarentfernungsite
+fahrradreparaturorg
+itserviceverzeichnisde
+fusspflegesite
+schaedlingsvernichtungde
 ```
 
 *List of trade_slugs:*
@@ -125,11 +124,11 @@ Unsuccessful Response
 
 an unsuccessful POST attempt will give you the below response:
 
-```
+```bash
 HTTP Basic: Access denied.
 ```
 or
-```
+```bash
  # usually happens when the epid or the trade_slug is not correct.
 '{"msg":"Failed! -> Check the doc params are not valid! {}"}
 ```
