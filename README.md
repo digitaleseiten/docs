@@ -47,7 +47,7 @@ In order to post leads in our API first you need to provide a proper json lead d
 
 `order_type` is the category of the lead e.g; TV-Technik.
 
-contact_attributes (fix_phone) is the phone number which the client is able to give feedback about the lead to the clients who have questions.
+contact_attributes (fix_phone) is the phone number which the client is able to give feedback about the lead.
 
 cipid is the name of the party which uses the API to post leads - basically name of your organization who tries to use this API.
 
