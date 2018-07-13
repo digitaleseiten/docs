@@ -19,7 +19,7 @@ In order to post leads in our API first you need to provide a proper json lead d
     "size": "30,00 m hight 13,00 m width"
   },
   "epid": "gartenbauorg", 
-  "epid": "gartenbau", 
+  "trade_slug": "gartenbau", 
   "order_type": "other", 
   "address_attributes": {
     "line_1": "schoenerhauser alle 6-7",
