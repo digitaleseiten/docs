@@ -105,6 +105,8 @@ fensterbau
 steuerberater24
 bauunternehmen
 ```
+staging-endpoint: `staging.leadlaundry.de/submarine`
+prdocution-endpoint: `www.leadlaundry.de/submarine`
 
 Here is a basic curl command to post a lead:
 
@@ -141,7 +143,7 @@ Post a lead using Faraday in ruby:
 # above your class
 # -*- coding: utf-8 -*-
 
-API_URL = 'http://www.leadlaundry.de/submarine'
+API_URL = 'http://staging.leadlaundry.de/submarine'
 API_BASIC_AUTH_USER='Your Username'
 API_BASIC_AUTH_PASS='Your Password'
 
@@ -161,3 +163,4 @@ API_BASIC_AUTH_PASS='Your Password'
   response
 
 ```
+
