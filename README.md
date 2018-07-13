@@ -18,6 +18,7 @@ In order to post leads in our API first you need to provide a proper json lead d
       "project_deadline": "Within the next 4 weeks", 
     "size": "30,00 m hight 13,00 m width"
   },
+  "epid": "gartenbauorg", 
   "epid": "gartenbau", 
   "order_type": "other", 
   "address_attributes": {
