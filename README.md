@@ -46,7 +46,7 @@ In order to post leads in our API first you need to provide a proper json lead d
 
 `address_attributes` (line_1) is the street address of the lead.
 
-`order_type` is the category of the lead e.g; TV-Technik.
+`order_type` is the category of the lead e.g; TV-Technik. If you have more than one order_type please separate them by `/` or `;`
 
 contact_attributes (fix_phone) is the phone number which the client is able to give feedback about the lead.
 
