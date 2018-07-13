@@ -106,6 +106,7 @@ steuerberater24
 bauunternehmen
 ```
 staging-endpoint: `staging.leadlaundry.de/submarine`
+
 prdocution-endpoint: `www.leadlaundry.de/submarine`
 
 Here is a basic curl command to post a lead:
