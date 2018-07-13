@@ -38,11 +38,11 @@ In order to post leads in our API first you need to provide a proper json lead d
 }
 ```
 
-`description` is the lead description
+- `description` is the lead description
 
-`data`: includes the service deadline and other details (more keys and values can be added)
+`data`: includes the service deadline and other details (more keys and values can be added).
 
-`epid` is the vertical code which the lead is belong (see List of EPIDs for all codes)
+`epid` is the vertical code which the lead is belong (see List of EPIDs for all codes).
 
 `address_attributes` (line_1) is the street address of the lead.
 
