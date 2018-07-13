@@ -110,7 +110,7 @@ bauunternehmen
 Here is a basic curl command to post a lead:
 
 ```bash
-curl -H "Content-Type: application/json" -X POST -d '{"description":"test description", "data":{"project_deadline": "In den nächsten 4 Wochen", "size": "30,00 m lang 13,00 m hoch"}, "order_type":"other","address_attributes":{"line_1":"schoenerhauser alle 6-7","postal_code":"10119","city":"berlin"},"epid":"gartenbauorg","contact_attributes":{"gender":"male","first_name":"John","last_name":"Cruz","email":"john@example.com","fix_phone":"03023131","mobile_phone":"+49123213223"},"cipid":"provider name"}' http://user:password@staging.leadlaundry.de/submarine
+curl -H "Content-Type: application/json" -X POST -d '{"description":"lead description/comment", "trade_slug": "maler", "data":{"project_deadline": "In den nächsten 4 Wochen", "project_surface": "150", "project_height": "220", "project_place": "Aussenwand", "order_type": "other"}, "order_type":"other","address_attributes":{"line_1":"schoenerhauser alle 6-7","postal_code":"10119","city":"berlin"},"epid":"malerorg","contact_attributes":{"gender":"male","first_name":"John6","last_name":"Cruz4","email":"john@example.com","fix_phone":"030234131","mobile_phone":"+49123213223"},"cipid":SLUG YOU HAVE GOT FROM DS TEAM"}' http://user:password@staging.leadlaundry.de/submarine
 ```
 
 Successful response
